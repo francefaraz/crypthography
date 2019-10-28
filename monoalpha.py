@@ -28,6 +28,7 @@ else:
 			dec+=str(int(i)-key)
 			continue
 		dec+=l[((l.index(i)%26)-key)%26]
+		print("Tes :"dec())
 	print("The plain text is:"+dec.upper())
 
 		
